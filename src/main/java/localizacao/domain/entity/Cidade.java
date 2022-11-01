@@ -19,5 +19,6 @@ public class Cidade {
     @Column(length = 50, unique = true) //definindo tamanho 50 e que não pode ter outra cidade com msm nome
     private String nome;
 
+    @Column(name = "qtd_habitantes")
     private Long habitantes;
 }
